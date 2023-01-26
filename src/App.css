@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.name {
+  color: aliceblue;
+
+  text-align: center;
+}
+
+.cardCountry {
+  background-color: rgb(77, 75, 75);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  max-width: 320px;
+  box-shadow: 10px 30px 50px;
+
+}
+
+.cardCountry_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  color: aliceblue;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.form {
+  margin-top: 10px;
+  margin-left: 20%;
+  border-radius: 5px;
+
+
+}
+
+.botton {
+  background-color: aqua;
+  margin-top: 10px;
+  margin-left: 40%;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+
+}
